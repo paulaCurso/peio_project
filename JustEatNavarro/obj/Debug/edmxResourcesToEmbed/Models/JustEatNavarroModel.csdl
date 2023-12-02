@@ -32,8 +32,6 @@
     <Property Name="Localidad" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Correo" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Telefono" Type="Int32" />
-    <Property Name="FechaNacimiento" Type="DateTime" Precision="3" />
-    <Property Name="NombreLogin" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="Pedido" Relationship="Self.FK_Pedido_Cliente" FromRole="Cliente" ToRole="Pedido" />
   </EntityType>
   <EntityType Name="Conductor">

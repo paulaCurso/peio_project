@@ -31,8 +31,6 @@
           <ScalarProperty Name="Localidad" ColumnName="Localidad" />
           <ScalarProperty Name="Correo" ColumnName="Correo" />
           <ScalarProperty Name="Telefono" ColumnName="Telefono" />
-          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
-          <ScalarProperty Name="NombreLogin" ColumnName="NombreLogin" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

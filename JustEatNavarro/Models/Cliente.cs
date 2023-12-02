@@ -29,8 +29,7 @@ namespace JustEatNavarro.Models
         public string Localidad { get; set; }
         public string Correo { get; set; }
         public Nullable<int> Telefono { get; set; }
-        public Nullable<System.DateTime> FechaNacimiento { get; set; }
-        public string NombreLogin { get; set; }
+  
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Pedido> Pedido { get; set; }

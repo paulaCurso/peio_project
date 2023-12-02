@@ -34,8 +34,6 @@
           <Property Name="Localidad" Type="varchar" MaxLength="150" Nullable="false" />
           <Property Name="Correo" Type="varchar" MaxLength="150" Nullable="false" />
           <Property Name="Telefono" Type="int" />
-          <Property Name="FechaNacimiento" Type="datetime" />
-          <Property Name="NombreLogin" Type="varchar" MaxLength="250" />
         </EntityType>
         <EntityType Name="Conductor">
           <Key>
@@ -254,8 +252,6 @@
           <Property Name="Localidad" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Correo" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Telefono" Type="Int32" />
-          <Property Name="FechaNacimiento" Type="DateTime" Precision="3" />
-          <Property Name="NombreLogin" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Pedido" Relationship="Self.FK_Pedido_Cliente" FromRole="Cliente" ToRole="Pedido" />
         </EntityType>
         <EntityType Name="Conductor">
@@ -484,8 +480,6 @@
                 <ScalarProperty Name="Localidad" ColumnName="Localidad" />
                 <ScalarProperty Name="Correo" ColumnName="Correo" />
                 <ScalarProperty Name="Telefono" ColumnName="Telefono" />
-                <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
-                <ScalarProperty Name="NombreLogin" ColumnName="NombreLogin" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
